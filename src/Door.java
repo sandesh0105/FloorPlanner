@@ -1,4 +1,4 @@
-package  FloorPlanner;
+
 import java.awt.*;
 import java.io.Serializable;
 

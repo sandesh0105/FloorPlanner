@@ -1,4 +1,4 @@
-package FloorPlanner;
+
 interface Command{
     void execute();
     void undo();
