@@ -16,9 +16,13 @@
 
 - Java JDK 8 or higher
 - A Java IDE (like VS Code or IntelliJ) or terminal
+- FlatLaf 3.3 or higher
 
 ### Compile & Run
 
 ```bash
-javac -d bin src/*.java
-java -cp bin App  # Replace 'App' with your main class if different
+javac -cp "lib/*" -d bin src/*.java
+java -cp "lib/*;bin" newFrame
+
+![Screenshot 2025-06-23 175900](https://github.com/user-attachments/assets/cbb8d3e3-7250-4008-927b-d2b57273928b)
+
