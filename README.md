@@ -1,18 +1,24 @@
-## Getting Started
+# 🏠 FloorPlanner
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+**FloorPlanner** is a Java Swing-based application that allows users to visually design and organize room layouts. It provides a simple and interactive canvas for placing and managing furniture, making it useful for experimenting with interior design ideas.
 
-## Folder Structure
+## ✨ Features
 
-The workspace contains two folders by default, where:
+- 🎨 **Custom Drawing Canvas** – Add and arrange items like furniture on a scalable panel.
+- 🧱 **Object-Oriented Design** – Modular code using Java classes like `Canvas`, `Chair`, `Door`, etc.
+- 🖱️ **Mouse Interaction** – Support for selecting and moving items via mouse clicks or drags.
+- 🧭 **Command Input Support** – Perform actions like adding objects using textual commands.
+- 📁 **Java Swing GUI** – Built entirely with Java Swing components for cross-platform compatibility.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🚀 Getting Started
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Prerequisites
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Java JDK 8 or higher
+- A Java IDE (like VS Code or IntelliJ) or terminal
 
-## Dependency Management
+### Compile & Run
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+javac -d bin src/*.java
+java -cp bin App  # Replace 'App' with your main class if different
