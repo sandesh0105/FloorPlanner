@@ -23,6 +23,6 @@
 ```bash
 javac -cp "lib/*" -d bin src/*.java
 java -cp "lib/*;bin" newFrame
-
-![Screenshot 2025-06-23 175900](https://github.com/user-attachments/assets/cbb8d3e3-7250-4008-927b-d2b57273928b)
+```
+[Screenshot 2025-06-23 175900](https://github.com/user-attachments/assets/cbb8d3e3-7250-4008-927b-d2b57273928b)
 
